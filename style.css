@@ -12,80 +12,12 @@ body
 {
     overflow: hidden;
 }
-section .main
-{
-   
-   width: 580px;
-   margin: 0 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column; 
-}
-section .main .searchBx
-{
-    position: relative;
-    width: 100%;
-    margin-top: 20px;
-}
-section .main .searchBx .query
-{
-    width: 100%;
-    padding: 13px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-size: 16px;
-    border-radius: 30px;
-    padding-left: 45px;
-    padding-right: 60px;
-}
-section .main .searchBx .icons
-{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 20px;
-    align-items: center;
-    pointer-events: none;
-    cursor: pointer;
-}
-section .main .searchBx .keyboard
-{
-    width: 24px;
-}
-section .main .searchBx .icons img
-{
-    max-width: 100%;
-}
-.searchBtn, .getluckyBtn
-{
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-}
-.searchBtn:hover, .getluckyBtn:hover
-{
-    border: 1px solid #ccc;
-}
 nav {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	margin-right: 30px;
-	margin-top: 14px;
+	margin-right: 4px;
+	margin-top: 7px;
 }
 nav a {
 	font-size: 13px;
@@ -125,6 +57,7 @@ nav button {
     border: 1px solid #4285f4;
     background: #4285f4;
 }
+
 
 .section-1 {
 	flex: 1;
@@ -223,7 +156,7 @@ footer a:hover {
 	display: flex;
 }
 .link-1 {
-	padding-left: 18.7px;
+	padding-left: 24px;
 	flex: 1;
 }
 .link-2 {
