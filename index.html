@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
     <title>Google</title>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" type="image/png">
-
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" type="image/png">
+    <link rel="stylesheet" href = "style.css">
 </head>
+<body>
+<section>
+    <ul class="navbar">
+        <li class = "nav-item">
+            <a class ="nav-link mail" href="https://accounts.google.com/b/0/AddMailService">Почта</a>
+            <a class ="nav-link picture" href="https://www.google.ru/imghp?hl=ru&ogbl">Картинки</a>
 
-<body style="background-color : #fff;
-    color : #202124;
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #202124;
-    ">
-
-    <nav 
-        style="
-            display: flex
-        "
-    >
-        <div>Почта</div>
-        <div>Картинки</div>
-        <div> <svg style="width: 24px" class="gb_Ue" focusable="false" viewBox="0 0 24 24">
-                <path
-                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
-                </path>
-            </svg>
+            <div class="nav-link menu" >
+                <a class="gb_A" aria-label="Приложения Google" href="https://www.google.ru/intl/ru/about/products">
+                    <svg style="width: 24px" class="gb_Ue" focusable="false" viewBox="0 0 24 24">
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                </a>
+            </div>
+        </li>
+            
+    </ul>
+</section>
+<!--Search bar & google pic-->
+<section>
+    <div class="main">
+        <img src="google-logo.png">
+        <div class="searchBx">
+            <input type = "text" name="" class="query">
+            <div class="icons">
+                <div><img src="search.png"></div>      
+                <div><img src="mic.png"></div>       
+            </div>
+            <!--УФ КОСТЫЛЬ-->
+            <div class="keyboard"><img src="keyboard.png"></div>    
         </div>
-    </nav>
-    <div>
-        <img width="272px" height="92px" src= "google-logo.png" alt =""/>
+        <div class="button">
+            <button class="searchBtn">Поиск в Google</button>
+            <button class="getluckyBtn">Мне повезёт!</button>
+        </div> 
     </div>
+</section>
 
 </body>
 
