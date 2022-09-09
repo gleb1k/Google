@@ -79,3 +79,11 @@ section .main .searchBx .icons img
 {
     border: 1px solid #ccc;
 }
+section .navbar
+{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
