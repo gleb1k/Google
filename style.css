@@ -30,6 +30,19 @@ nav a:hover {
 	text-decoration: underline;
 	opacity: .85;
 }
+nav .nav-linkM {
+	padding: 0%;
+	padding-top: 12px;
+	text-align: center;
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+}
+nav .nav-linkM:hover {
+    background-color: #e4e0e0dd;
+    border-radius: 75%;
+}
 nav img:hover {
 	opacity: .8;
 }
@@ -67,7 +80,7 @@ nav button {
 .section-1 .logo {
 	display: block;
 	margin: 0px auto;
-	margin-top: 8px;
+	margin-top: 198px;
 	height: 92px;
 }
 .s-box {
@@ -146,37 +159,57 @@ footer {
 	background: #f2f2f2;
     Position:absolute;
     Bottom:0;
-    width: 100%
+    width: 100%;
 }
 footer h4 {
 	color: #70757a;
 	font-size: 15px;
-	line-height: 39.5px;
+	line-height: 17px;
 	font-weight: 400;
-	padding-left: 29px;
-	border: 1px solid #eee;
+	padding: 15px 30px;
 }
 footer a {
 	color: #5f6368;
 	display: inline-block;
-	padding: 12px 11.3px;
 	font-size: 14px;
+	padding: 15px;
 }
 footer a:hover {
 	text-decoration: underline;
 }
 .links {
+	justify-content: space-between;
 	border-top: 1px solid #ddd;
 	display: flex;
+	padding: 0 20px;
+    flex-wrap: wrap;
+	width: auto;
+	height: auto;
 }
 .link-1 {
-	padding-left: 24px;
-	flex: 1;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
 }
 .link-2 {
-	padding-right: 18.7px;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
 }
 .link-3 {
 	justify-content: center;
 	flex-direction: row;
+	order: 2;
+	height: auto;
+	width: auto;
+	display: block;
+    white-space: nowrap;
+}
+.link-3 img{
+	height: 14px;
+	align-items: center;
 }
