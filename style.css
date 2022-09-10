@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +7,7 @@
     font-size: 14px;
     text-decoration: none;
 }
-body
-{
+body {
     overflow: hidden;
 }
 nav {
@@ -58,14 +56,19 @@ nav button {
     background: #4285f4;
 }
 
-
 .section-1 {
 	flex: 1;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
 }
 .section-1 .logo {
 	display: block;
 	margin: 0px auto;
-	margin-top: 107px;
+	margin-top: 8px;
+	height: 92px;
 }
 .s-box {
 	width: 580px;
@@ -73,6 +76,7 @@ nav button {
 	position: relative;
 	margin-top: -8px;
 	text-align: center;
+	color: black;
 }
 .s-box .s-input {
 	display: block;
@@ -110,12 +114,22 @@ nav button {
 	right: 24px;
     cursor: pointer;
 }
+.s-box .key-icon {
+	padding: 6.5px 0px;
+	padding-left: 505px;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -35px;
+}
 .s-btn {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
 	border: 1px solid transparent;
 	padding: 9px 15px;
-	color: #666;
 	font-size: 14px;
 	border-radius: 4px;
 	display: inline-block;
@@ -161,4 +175,8 @@ footer a:hover {
 }
 .link-2 {
 	padding-right: 18.7px;
+}
+.link-3 {
+	justify-content: center;
+	flex-direction: row;
 }
